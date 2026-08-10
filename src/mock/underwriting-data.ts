@@ -1,0 +1,38 @@
+export const underwritingData = {
+  applicant: {
+    id: "APP-10021",
+    name: "Demo Customer",
+    pan: "AXXPD4417K",
+    type: "Gold Loan",
+    amount: "₹3,00,000",
+    tenure: "24 months",
+    branch: "Bengaluru — Koramangala",
+    purpose: "Business working capital",
+    segment: "Self-employed / informal income",
+  },
+  documents: [
+    { key: "pan", name: "PAN Card" },
+    { key: "aadhaar", name: "Aadhaar" },
+    { key: "form16", name: "Form 16" },
+    { key: "payslip", name: "Salary Payslips" },
+    { key: "bank", name: "Bank Statement" },
+    { key: "address", name: "Address Proof" },
+  ],
+  metrics: {
+    risk: "Low",
+    decision: "Refer",
+    progress: 84,
+    score: 731,
+    income: "₹78,500",
+    exposure: "₹8.4L",
+    collateral: "₹3.3L",
+  },
+  stages: {
+    documents: "6 / 6",
+    fraud: "Low risk",
+    credit: "731",
+    income: "₹78,500",
+    collateral: "₹3.3L",
+    decision: "Refer",
+  },
+}
